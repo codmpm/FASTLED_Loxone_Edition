@@ -574,7 +574,6 @@ W = angled&lt;p&gt;
 <pad name="L2" x="-3.65" y="-1.25" drill="1.1" diameter="1.6" shape="offset"/>
 <pad name="L1" x="-3.65" y="-3.75" drill="1.1" diameter="1.6" shape="offset"/>
 <text x="-3.95" y="8.02" size="2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-6.65" y="-5.14" size="2" layer="21" font="vector" ratio="10" rot="R90">1</text>
 <text x="-3.95" y="-9.02" size="2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
@@ -11001,7 +11000,7 @@ DIN A4, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="X1" library="con-wago_2.5mm" deviceset="733-364" device=""/>
+<part name="X1" library="con-wago_2.5mm" deviceset="733-364" device="" override_package3d_urn="urn:adsk.eagle:package:14797526/2" override_package_urn="urn:adsk.eagle:footprint:14797527/1"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µ"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µ"/>
 <part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
@@ -11014,29 +11013,29 @@ DIN A4, landscape with location and doc. field</description>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µ"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
-<part name="U2" library="ESP-WROOM-02" deviceset="ESP-WROOM-02" device="" override_package3d_urn="urn:adsk.eagle:package:13247454/2" override_package_urn="urn:adsk.eagle:footprint:13247455/1" override_locally_modified="yes"/>
+<part name="U2" library="ESP-WROOM-02" deviceset="ESP-WROOM-02" device="" override_package3d_urn="urn:adsk.eagle:package:14797501/2" override_package_urn="urn:adsk.eagle:footprint:14797502/1"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="STATUS" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="adafruit" deviceset="MOSFET-N" device="REFLOW" value="BSS138"/>
+<part name="Q1" library="adafruit" deviceset="MOSFET-N" device="REFLOW" override_package3d_urn="urn:adsk.eagle:package:14797484/2" override_package_urn="urn:adsk.eagle:footprint:14797485/1" value="BSS138"/>
 <part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="300"/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" override_package3d_urn="urn:adsk.eagle:package:14797494/2" override_package_urn="urn:adsk.eagle:footprint:8281/1"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="Q2" library="adafruit" deviceset="MOSFET-N" device="REFLOW" value="BSS138"/>
+<part name="Q2" library="adafruit" deviceset="MOSFET-N" device="REFLOW" override_package3d_urn="urn:adsk.eagle:package:14797490/2" override_package_urn="urn:adsk.eagle:footprint:14797491/1" value="BSS138"/>
 <part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
@@ -11044,7 +11043,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FLASH" library="eagle-book" deviceset="KMR231" device="" override_package3d_urn="urn:adsk.eagle:package:13489703/2" override_package_urn="urn:adsk.eagle:footprint:13489704/1"/>
-<part name="RST" library="eagle-book" deviceset="KMR231" device="" override_package3d_urn="urn:adsk.eagle:package:13489703/2" override_package_urn="urn:adsk.eagle:footprint:13489704/1"/>
+<part name="RESET" library="eagle-book" deviceset="KMR231" device="" override_package3d_urn="urn:adsk.eagle:package:13489703/2" override_package_urn="urn:adsk.eagle:footprint:13489704/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -11132,7 +11131,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="NAME" x="216.9414" y="67.31" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="221.742" y="67.31" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED1" gate="G$1" x="218.44" y="58.42" smashed="yes">
+<instance part="STATUS" gate="G$1" x="218.44" y="58.42" smashed="yes">
 <attribute name="NAME" x="221.996" y="53.848" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="224.155" y="53.848" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -11208,7 +11207,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="NAME" x="124.968" y="54.61" size="1.778" layer="94" rot="R90"/>
 <attribute name="VALUE" x="133.096" y="52.324" size="1.778" layer="94" rot="R90"/>
 </instance>
-<instance part="RST" gate="G$1" x="233.68" y="58.42" smashed="yes" rot="R90">
+<instance part="RESET" gate="G$1" x="233.68" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="231.648" y="54.61" size="1.778" layer="94" rot="R90"/>
 <attribute name="VALUE" x="239.776" y="52.324" size="1.778" layer="94" rot="R90"/>
 </instance>
@@ -11252,15 +11251,15 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="STATUS" gate="G$1" pin="C"/>
 <wire x1="129.54" y1="43.18" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="43.18" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
 <junction x="152.4" y="43.18"/>
 <wire x1="218.44" y1="43.18" x2="236.22" y2="43.18" width="0.1524" layer="91"/>
 <junction x="218.44" y="43.18"/>
-<pinref part="RST" gate="G$1" pin="3"/>
+<pinref part="RESET" gate="G$1" pin="3"/>
 <wire x1="236.22" y1="43.18" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="RST" gate="G$1" pin="1"/>
+<pinref part="RESET" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="48.26" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="50.8" x2="233.68" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="48.26" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
@@ -11472,8 +11471,8 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="236.22" y1="63.5" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="U2" gate="G$1" pin="RST"/>
-<pinref part="RST" gate="G$1" pin="4"/>
-<pinref part="RST" gate="G$1" pin="2"/>
+<pinref part="RESET" gate="G$1" pin="4"/>
+<pinref part="RESET" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="66.04" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="63.5" x2="233.68" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="66.04" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
@@ -11508,7 +11507,7 @@ DIN A4, landscape with location and doc. field</description>
 <segment>
 <wire x1="218.44" y1="66.04" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="STATUS" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DATA-5V" class="0">
@@ -11560,7 +11559,7 @@ DIN A4, landscape with location and doc. field</description>
 <label x="53.34" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CLKD-5V" class="0">
+<net name="CLK-5V" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="38.1" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
